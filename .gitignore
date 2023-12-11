@@ -1,0 +1,65 @@
+HELP.md
+.gradle
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+# dependencies
+src/main/frontend/rmsoft/node_modules
+src/main/node_modules
+src/main/frontend/rmsoft/.pnp
+src/main/frontend/rmsoft/.pnp.js
+
+# testing
+src/main/frontend/rmsoft/coverage
+
+# production
+src/main/frontend/rmsoft/build
+
+# misc
+src/main/frontend/rmsoft/.DS_Store
+src/main/frontend/rmsoft/.env
+src/main/frontend/rmsoft/.env.local
+src/main/frontend/rmsoft/.env.development.local
+src/main/frontend/rmsoft/.env.test.local
+src/main/frontend/rmsoft/.env.production.local
+
+src/main/frontend/rmsoft/npm-debug.log*
+src/main/frontend/rmsoft/yarn-debug.log*
+src/main/frontend/rmsoft/yarn-error.log*
+
+# Resources
+src/main/resources/static/static
+
