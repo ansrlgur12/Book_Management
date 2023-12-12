@@ -31,7 +31,7 @@ public class BorrowController {
             borrowService.borrow(borrow);
             return new ResponseEntity<>("대출 성공", HttpStatus.CREATED);
         } catch (NoSuchElementException e) {
-            return new ResponseEntity<>("책이나 회원을 찾을 수 없습니다", HttpStatus.NOT_FOUND);
+            return new ResponseEntity<>("회원을 찾을 수 없습니다", HttpStatus.NOT_FOUND);
         } catch (Exception e) {
             return new ResponseEntity<>("대출 실패: " + e.getMessage(), HttpStatus.INTERNAL_SERVER_ERROR);
         }

@@ -9,9 +9,9 @@ const HomeMainSection = () => {
 
     return(
     <MainSectionStyle>
+        <button onClick={()=> nav("/signUp")}>회원 등록</button> 
         <button onClick={()=> nav("/borrow")}>대여 / 반납</button> 
         <button onClick={()=> nav("/book")}>도서 관리</button> 
-        <button onClick={()=> nav("/signUp")}>회원 등록</button> 
     </MainSectionStyle>
     );
 }
